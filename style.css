@@ -1,0 +1,16 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+#map {
+    width: 70%;
+    height: 70%;
+}
+
+@media(min-width: 768px) {
+    .news.input {
+        width: 50%
+    }
+}
